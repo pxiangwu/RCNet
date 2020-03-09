@@ -1,7 +1,7 @@
 ## Code for "Point cloud processing via recurrent set encoding".
 
 
-## Requirentments:
+## Requirements:
 - PyTorch 0.3/0.4
 - Python 3.6+
 - CUDA 8.0 (Not sure if CUDA > 8.0 will work. This depends on PyTorch.)
