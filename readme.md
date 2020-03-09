@@ -23,7 +23,7 @@ wget https://shapenet.cs.stanford.edu/media/shapenetcore_partanno_segmentation_b
 - `utils/pointnet.py1` provides some modules, which are about spatial transformer (STN).  
 - `utils/orderpoints.py` provides functions for partitioning the ambient space into structured beam. Currently the code is not the most efficient. More efficient version will be updated later.
 - `utils/provider` provides functions for some basic data augmentation, such at random jitter, random scale, etc.
-- Directory "utils/gen_point_cloud" includes some codes (you may not need) for converting mesh into point clouds. It relies on pyntcloud library.
+- Directory `utils/gen_point_cloud` includes some codes (you may not need) for converting mesh into point clouds. It relies on pyntcloud library.
 
 
 ## Reference:
