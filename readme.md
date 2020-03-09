@@ -1,4 +1,4 @@
-## Code for "Point cloud processing via recurrent set encoding".
+## Code for ["Point cloud processing via recurrent set encoding"](https://arxiv.org/pdf/1911.10729.pdf).
 
 
 ## Requirements:
