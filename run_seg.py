@@ -1,4 +1,4 @@
-from train_seg import main
+from train_rcnet_seg import main
 import os
 
 import argparse
