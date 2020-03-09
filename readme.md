@@ -1,13 +1,11 @@
 ## Code for "Point cloud processing via recurrent set encoding".
 
----
 
 ## Requirentments:
 - PyTorch 0.3/0.4
 - Python 3.6+
 - CUDA 8.0 (Not sure if CUDA > 8.0 will work. This depends on PyTorch.)
 
----
 
 ## Usage and file strctures:
 
@@ -27,7 +25,7 @@ wget https://shapenet.cs.stanford.edu/media/shapenetcore_partanno_segmentation_b
 - `utils/provider` provides functions for some basic data augmentation, such at random jitter, random scale, etc.
 - Directory "utils/gen_point_cloud" includes some codes (you may not need) for converting mesh into point clouds. It relies on pyntcloud library.
 
----
+
 ## Reference:
 ```
 @inproceedings{wu2019point,
