@@ -7,7 +7,7 @@
 - CUDA 8.0 (Not sure if CUDA > 8.0 will work. This depends on PyTorch.)
 
 
-## Usage and file strctures:
+## Usage and file structures:
 
 - For classification, run `train_rcnet_cls.py`. For shape segmentation, run `run_seg.py`
 - The dataset can be downloaded from https://github.com/charlesq34/pointnet:
