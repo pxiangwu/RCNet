@@ -21,7 +21,7 @@ wget https://shapenet.cs.stanford.edu/media/shapenetcore_partanno_segmentation_b
 
 - The dataloader for classification task is in file `utils/datasets.py`. The dataloader for segmentation task is in file `utils/part_dataset.py`.
 - `utils/pointnet.py1` provides some modules, which are about spatial transformer (STN).  
-- `utils/orderpoints.py` provides functions for partitioning the ambient space into structured beam. Currently the code is not the most efficient. More efficient version will be updated later.
+- `utils/orderpoints.py` provides functions for partitioning the ambient space into structured beam. Currently the code is not the most efficient. For more efficient version, please refer to [here](https://github.com/pxiangwu/MotionNet/blob/master/data/data_utils.py#L105).
 - `utils/provider` provides functions for some basic data augmentation, such at random jitter, random scale, etc.
 - Directory `utils/gen_point_cloud` includes some codes (you may not need) for converting mesh into point clouds. It relies on pyntcloud library.
 
